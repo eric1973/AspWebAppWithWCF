@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplic
 		{C2A02DBD-AD34-4C83-9964-226473C08ED5} = {C2A02DBD-AD34-4C83-9964-226473C08ED5}
 	EndProjectSection
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{149B8101-3E99-4CCA-88DE-8C08A7BA6FC8}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database.SSDT", "Database\Database.SSDT.sqlproj", "{149B8101-3E99-4CCA-88DE-8C08A7BA6FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUIEFCodeFirst", "ConsoleUIEFCodeFirst\ConsoleUIEFCodeFirst.csproj", "{890A3024-AC48-4ACE-9384-B7FE0196EC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{149B8101-3E99-4CCA-88DE-8C08A7BA6FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{149B8101-3E99-4CCA-88DE-8C08A7BA6FC8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{149B8101-3E99-4CCA-88DE-8C08A7BA6FC8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{890A3024-AC48-4ACE-9384-B7FE0196EC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890A3024-AC48-4ACE-9384-B7FE0196EC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890A3024-AC48-4ACE-9384-B7FE0196EC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890A3024-AC48-4ACE-9384-B7FE0196EC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
